@@ -17,7 +17,7 @@ namespace IntroduceParameterObject.Step6
         {
             Min = min;Max = max;
         }
-        public bool IsInsideRange(float value)
+        public bool Contains(float value)
         {
             return value >= Min && value <= Max;
         }
@@ -29,7 +29,7 @@ namespace IntroduceParameterObject.Step6
         {
             return stations.Where(s => {
                 var tempRange = new Range(minTemp, maxTemp);
-                return !tempRange.IsInsideRange(s.Temperature);
+                return !tempRange.Contains(s.Temperature);
             }).ToList();
         }
     }
