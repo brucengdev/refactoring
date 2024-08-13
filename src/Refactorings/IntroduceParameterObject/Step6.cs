@@ -1,11 +1,9 @@
 ﻿/**
- * Step 5: use one element in the new structure (maxTemp)
- * Switch from using maxTemp parameter to use tempRange.Max
- * Remove the parameter
- * Test
+ * Step 6: Move logic to the new type
+ * Remember to test
  **/
 
-namespace IntroduceParameterObject.Step5
+namespace IntroduceParameterObject.Step6
 {
     public class Station
     {
@@ -19,20 +17,19 @@ namespace IntroduceParameterObject.Step5
         {
             Min = min;Max = max;
         }
+        public bool IsInsideRange(float value)
+        {
+            return value >= Min && value <= Max;
+        }
     }
 
     public class Program
     {
-        private bool IsTempOutsideRange(Station station, 
-            Range tempRange)
-        {
-            return station.Temperature < tempRange.Min || station.Temperature > tempRange.Max;
-        }
         public IEnumerable<Station> GetStationsOutsideRange(Station[] stations, float minTemp, float maxTemp)
         {
             return stations.Where(s => {
                 var tempRange = new Range(minTemp, maxTemp);
-                return IsTempOutsideRange(s, tempRange);
+                return !tempRange.IsInsideRange(s.Temperature);
             }).ToList();
         }
     }
