@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceTempWithQuery", "Ref
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractClass", "Refactorings\ExtractClass\ExtractClass.csproj", "{A4647731-05F4-4B7E-BB62-C66345EE23AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineClass", "Refactorings\InlineClass\InlineClass.csproj", "{B706D272-3F9A-4949-8963-D7C525E4CF74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{A4647731-05F4-4B7E-BB62-C66345EE23AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4647731-05F4-4B7E-BB62-C66345EE23AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4647731-05F4-4B7E-BB62-C66345EE23AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B706D272-3F9A-4949-8963-D7C525E4CF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B706D272-3F9A-4949-8963-D7C525E4CF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B706D272-3F9A-4949-8963-D7C525E4CF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B706D272-3F9A-4949-8963-D7C525E4CF74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{69B3AEAF-7E71-4054-9DDC-59A0489209D0} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{405A91F0-978D-4EFA-9C2A-73D6B1031386} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{A4647731-05F4-4B7E-BB62-C66345EE23AB} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{B706D272-3F9A-4949-8963-D7C525E4CF74} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
