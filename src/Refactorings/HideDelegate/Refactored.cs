@@ -19,11 +19,11 @@ namespace HideDelegate.Refactored
         {
             get
             {
-                return Department.Manager;
+                return _department.Manager;
             }
         }
 
-        private Department Department { get;set; }
+        private Department _department { get;set; }
     }
 
     public class Client
