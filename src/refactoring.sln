@@ -29,11 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncapsulatCollection", "Ref
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceTempWithQuery", "Refactorings\ReplaceTempWithQuery\ReplaceTempWithQuery.csproj", "{405A91F0-978D-4EFA-9C2A-73D6B1031386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractClass", "Refactorings\ExtractClass\ExtractClass.csproj", "{A4647731-05F4-4B7E-BB62-C66345EE23AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractClass", "Refactorings\ExtractClass\ExtractClass.csproj", "{A4647731-05F4-4B7E-BB62-C66345EE23AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineClass", "Refactorings\InlineClass\InlineClass.csproj", "{B706D272-3F9A-4949-8963-D7C525E4CF74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InlineClass", "Refactorings\InlineClass\InlineClass.csproj", "{B706D272-3F9A-4949-8963-D7C525E4CF74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideDelegate", "Refactorings\HideDelegate\HideDelegate.csproj", "{976DB177-1DFE-4F01-BA02-4AAAE984F45C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HideDelegate", "Refactorings\HideDelegate\HideDelegate.csproj", "{976DB177-1DFE-4F01-BA02-4AAAE984F45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveField", "Refactorings\MoveField\MoveField.csproj", "{8D830CBF-78A2-4E31-8424-B7D1B820245A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{976DB177-1DFE-4F01-BA02-4AAAE984F45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976DB177-1DFE-4F01-BA02-4AAAE984F45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976DB177-1DFE-4F01-BA02-4AAAE984F45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D830CBF-78A2-4E31-8424-B7D1B820245A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D830CBF-78A2-4E31-8424-B7D1B820245A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D830CBF-78A2-4E31-8424-B7D1B820245A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D830CBF-78A2-4E31-8424-B7D1B820245A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{A4647731-05F4-4B7E-BB62-C66345EE23AB} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{B706D272-3F9A-4949-8963-D7C525E4CF74} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{976DB177-1DFE-4F01-BA02-4AAAE984F45C} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{8D830CBF-78A2-4E31-8424-B7D1B820245A} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
