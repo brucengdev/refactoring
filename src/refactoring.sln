@@ -39,6 +39,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveField", "Refactorings\M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitLoop", "Refactorings\SplitLoop\SplitLoop.csproj", "{C90F4D61-6CC9-47A5-BC1F-B09DB2969026}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceLoopWithPipeline", "Refactorings\ReplaceLoopWithPipeline\ReplaceLoopWithPipeline.csproj", "{5957CD93-2A45-475E-89F8-95A42F5F69AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{C90F4D61-6CC9-47A5-BC1F-B09DB2969026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C90F4D61-6CC9-47A5-BC1F-B09DB2969026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C90F4D61-6CC9-47A5-BC1F-B09DB2969026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{976DB177-1DFE-4F01-BA02-4AAAE984F45C} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{8D830CBF-78A2-4E31-8424-B7D1B820245A} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{C90F4D61-6CC9-47A5-BC1F-B09DB2969026} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{5957CD93-2A45-475E-89F8-95A42F5F69AB} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
