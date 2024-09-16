@@ -4,7 +4,7 @@
  * like extracting the loop into separate functions
  **/
 
-namespace SplitLoop.Extra
+namespace SplitLoop.Refactored
 {
     public class Person
     {
@@ -15,22 +15,19 @@ namespace SplitLoop.Extra
     {
         public void PrintYoungestAndTotalSalary(Person[] people)
         {
-            var youngest = GetYoungest(people);
+            int youngest = people[0].Age;
+            foreach(var person in people)
+            {
+                if(youngest > person.Age) { youngest = person.Age; }
+            }
 
-            var totalSalary = GetTotalSalary(people);
+            float totalSalary = 0f;
+            foreach (var person in people)
+            {
+                totalSalary += person.Salary;
+            }
 
             Console.WriteLine("Youngest: {0}, Total salary: {1}", youngest, totalSalary);
-        }
-
-        private int GetYoungest(Person[] people)
-        {
-            return people.Aggregate(people[0].Age,
-                (int age, Person person) => age < person.Age? age: person.Age);
-        }
-
-        private float GetTotalSalary(Person[] people)
-        {
-            return people.Aggregate(0f, (float salary, Person person) => salary + person.Salary);
         }
     }
 }
