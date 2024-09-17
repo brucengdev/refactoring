@@ -37,9 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HideDelegate", "Refactoring
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoveField", "Refactorings\MoveField\MoveField.csproj", "{8D830CBF-78A2-4E31-8424-B7D1B820245A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitLoop", "Refactorings\SplitLoop\SplitLoop.csproj", "{C90F4D61-6CC9-47A5-BC1F-B09DB2969026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitLoop", "Refactorings\SplitLoop\SplitLoop.csproj", "{C90F4D61-6CC9-47A5-BC1F-B09DB2969026}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceLoopWithPipeline", "Refactorings\ReplaceLoopWithPipeline\ReplaceLoopWithPipeline.csproj", "{5957CD93-2A45-475E-89F8-95A42F5F69AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceLoopWithPipeline", "Refactorings\ReplaceLoopWithPipeline\ReplaceLoopWithPipeline.csproj", "{5957CD93-2A45-475E-89F8-95A42F5F69AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrganizeData", "OrganizeData", "{0DA49C04-A756-485D-B0AD-2EC02ADF8578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitVariable", "Refactorings\OrganizeData\SplitVariable\SplitVariable.csproj", "{E5E8BF39-B2EE-4096-9322-CDE050BC628C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +119,10 @@ Global
 		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5957CD93-2A45-475E-89F8-95A42F5F69AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E8BF39-B2EE-4096-9322-CDE050BC628C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E8BF39-B2EE-4096-9322-CDE050BC628C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E8BF39-B2EE-4096-9322-CDE050BC628C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E8BF39-B2EE-4096-9322-CDE050BC628C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +145,8 @@ Global
 		{8D830CBF-78A2-4E31-8424-B7D1B820245A} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{C90F4D61-6CC9-47A5-BC1F-B09DB2969026} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{5957CD93-2A45-475E-89F8-95A42F5F69AB} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{0DA49C04-A756-485D-B0AD-2EC02ADF8578} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{E5E8BF39-B2EE-4096-9322-CDE050BC628C} = {0DA49C04-A756-485D-B0AD-2EC02ADF8578}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
