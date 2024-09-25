@@ -47,6 +47,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitVariable", "Refactorin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeValueToReference", "Refactorings\OrganizeData\ChangeValueToReference\ChangeValueToReference.csproj", "{992C32BD-0C9E-4032-8777-171D96B2EE8E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimplifyingConditional", "SimplifyingConditional", "{3892D213-63D9-48F7-88D4-2B8103BB5C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecomposeConditional", "Refactorings\SimplifyingConditional\DecomposeConditional\DecomposeConditional.csproj", "{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,10 @@ Global
 		{992C32BD-0C9E-4032-8777-171D96B2EE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{992C32BD-0C9E-4032-8777-171D96B2EE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{992C32BD-0C9E-4032-8777-171D96B2EE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +162,8 @@ Global
 		{0DA49C04-A756-485D-B0AD-2EC02ADF8578} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{E5E8BF39-B2EE-4096-9322-CDE050BC628C} = {0DA49C04-A756-485D-B0AD-2EC02ADF8578}
 		{992C32BD-0C9E-4032-8777-171D96B2EE8E} = {0DA49C04-A756-485D-B0AD-2EC02ADF8578}
+		{3892D213-63D9-48F7-88D4-2B8103BB5C65} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
