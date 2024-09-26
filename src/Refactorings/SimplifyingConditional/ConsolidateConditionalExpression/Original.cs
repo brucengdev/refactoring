@@ -10,5 +10,17 @@
 
             return 125;
         }
+
+        public float CalculatePayRate(Employee anEmployee)
+        {
+            if(anEmployee.OnVacation)
+            {
+                if(anEmployee.Seniority > 10)
+                {
+                    return 1;
+                }
+            }
+            return 0.5f;
+        }
     }
 }
