@@ -51,7 +51,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimplifyingConditional", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecomposeConditional", "Refactorings\SimplifyingConditional\DecomposeConditional\DecomposeConditional.csproj", "{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidateConditionalExpression", "Refactorings\SimplifyingConditional\ConsolidateConditionalExpression\ConsolidateConditionalExpression.csproj", "{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolidateConditionalExpression", "Refactorings\SimplifyingConditional\ConsolidateConditionalExpression\ConsolidateConditionalExpression.csproj", "{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceConditionalsWithGuardClauses", "Refactorings\SimplifyingConditional\ReplaceConditionalsWithGuardClauses\ReplaceConditionalsWithGuardClauses.csproj", "{2DBA1A2F-4031-47DA-A742-137CF520CE74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,10 @@ Global
 		{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBA1A2F-4031-47DA-A742-137CF520CE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBA1A2F-4031-47DA-A742-137CF520CE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBA1A2F-4031-47DA-A742-137CF520CE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBA1A2F-4031-47DA-A742-137CF520CE74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +177,7 @@ Global
 		{3892D213-63D9-48F7-88D4-2B8103BB5C65} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{F4F0FA89-B0DF-4F19-97AB-C0678B7FAB02} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 		{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
+		{2DBA1A2F-4031-47DA-A742-137CF520CE74} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
