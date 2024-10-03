@@ -38,14 +38,22 @@
         private int VoyageRisk()
         {
             var result = 1;
-            if (_voyage.Length > 4) { result += 2; }
-            if (_voyage.Length > 8) { result += _voyage.Length - 8; }
+            result += VoyageLengthFactor();
             if (new string[] { "china", "east-indies" }.Contains(_voyage.Zone))
             {
                 result += 4;
             }
             return result;
         }
+
+        private int VoyageLengthFactor()
+        {
+            var result = 0;
+            if (_voyage.Length > 4) { result += 2; }
+            if (_voyage.Length > 8) { result += _voyage.Length - 8; }
+            return result;
+        }
+
         protected virtual int CaptainHistoryRisk()
         {
             var result = 1;
