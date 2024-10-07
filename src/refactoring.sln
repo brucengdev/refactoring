@@ -57,6 +57,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceConditionalsWithGuar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceConditionalsWithPolymorphism", "Refactorings\SimplifyingConditional\ReplaceConditionalsWithPolymorphism\ReplaceConditionalsWithPolymorphism.csproj", "{BD033790-B49C-4365-BAFD-36668C326A19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroducingSpecialCase", "Refactorings\SimplifyingConditional\IntroducingSpecialCase\IntroducingSpecialCase.csproj", "{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,10 @@ Global
 		{BD033790-B49C-4365-BAFD-36668C326A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD033790-B49C-4365-BAFD-36668C326A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD033790-B49C-4365-BAFD-36668C326A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -185,6 +191,7 @@ Global
 		{A7A9AEBD-AEE2-44D4-86B8-4C20FB3815BD} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 		{2DBA1A2F-4031-47DA-A742-137CF520CE74} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 		{BD033790-B49C-4365-BAFD-36668C326A19} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
+		{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
