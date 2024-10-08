@@ -2,6 +2,18 @@
 {
     public class Site
     {
-        public Customer Customer { get; set; }
+        private Customer _customer = null;
+        public Customer Customer { 
+            get{
+                if(_customer == null)
+                {
+                    return new UnknownCustomer();
+                }
+                return _customer;
+            }
+            set{
+                _customer = value; 
+            }
+        }
     }
 }
