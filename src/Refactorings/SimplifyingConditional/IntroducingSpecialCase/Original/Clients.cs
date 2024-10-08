@@ -1,6 +1,6 @@
-﻿namespace IntroducingSpecialCase
+﻿namespace IntroducingSpecialCase.Original
 {
-    internal class Refactored: IClients
+    public class Clients
     {
         public string Client1(Site site)
         {

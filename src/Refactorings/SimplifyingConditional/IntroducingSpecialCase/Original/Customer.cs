@@ -1,9 +1,10 @@
-﻿namespace IntroducingSpecialCase
+﻿namespace IntroducingSpecialCase.Original
 {
-    internal class Customer
+    public class Customer
     {
         public string Name { get; set; }
 
         public Plan UtilityPlan { get; set; }
+
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntroducingSpecialCase
+namespace IntroducingSpecialCase.Original
 {
-    internal enum Plan
+    public enum Plan
     {
         Basic,
         Premium
