@@ -7,22 +7,28 @@
         {
             _alarm = alarm;
         }
-        public string AlertForMiscreant(List<string> people)
+        public string GetMiscreant(List<string> people)
         {
-            foreach(var person in people)
+            foreach (var person in people)
             {
-                if(person == "Don")
+                if (person == "Don")
                 {
-                    SetOffAlarms();
                     return "Don";
                 }
-                if(person == "John")
+                if (person == "John")
                 {
-                    SetOffAlarms();
                     return "John";
                 }
             }
             return "";
+        }
+
+        public void AlertForMiscreant(List<string> people)
+        {
+            if(GetMiscreant(people) != "")
+            {
+                SetOffAlarms();
+            }
         }
 
         private void SetOffAlarms()

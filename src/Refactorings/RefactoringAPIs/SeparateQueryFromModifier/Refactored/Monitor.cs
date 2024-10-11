@@ -20,7 +20,9 @@ namespace SeparateQueryFromModifier.Refactor
         }
         public void PeopleChanged(List<string> currentPeople)
         {
-            var miscreant = _alerter.AlertForMiscreant(currentPeople);
+            var miscreant = _alerter.GetMiscreant(currentPeople);
+
+            _alerter.AlertForMiscreant(currentPeople);
             if (miscreant != "")
             {
                 _messenger.SendMessage("Miscreant " + miscreant + " found!");
