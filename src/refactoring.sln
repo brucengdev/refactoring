@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceConditionalsWithPoly
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroducingSpecialCase", "Refactorings\SimplifyingConditional\IntroducingSpecialCase\IntroducingSpecialCase.csproj", "{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeparateQueryFromModifier", "Refactorings\RefactoringAPIs\SeparateQueryFromModifier\SeparateQueryFromModifier.csproj", "{D425B058-E7BD-41FD-B040-BFF91E7FCA49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeparateQueryFromModifier", "Refactorings\RefactoringAPIs\SeparateQueryFromModifier\SeparateQueryFromModifier.csproj", "{D425B058-E7BD-41FD-B040-BFF91E7FCA49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactoringAPIs", "RefactoringAPIs", "{D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -198,7 +200,8 @@ Global
 		{2DBA1A2F-4031-47DA-A742-137CF520CE74} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 		{BD033790-B49C-4365-BAFD-36668C326A19} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
 		{B568143D-A9CD-46BC-ADB2-8D5ECF9ED0FB} = {3892D213-63D9-48F7-88D4-2B8103BB5C65}
-		{D425B058-E7BD-41FD-B040-BFF91E7FCA49} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
+		{D425B058-E7BD-41FD-B040-BFF91E7FCA49} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
+		{D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
