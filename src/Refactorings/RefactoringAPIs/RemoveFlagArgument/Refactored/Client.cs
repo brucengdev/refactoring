@@ -16,7 +16,7 @@
             var orderLines = orders
                 .Select(order =>
                 {
-                    var deliveryDate = _deliveryDateCal.DeliveryDate(order, false);
+                    var deliveryDate = _deliveryDateCal.RegularDeliveryDate(order);
                     return $"{order.Name} (placed on {order.PlacedOn}), delivery by {deliveryDate}";
                 });
             var content = string.Join('\n', orderLines);
@@ -29,7 +29,7 @@
             var orderLines = orders
                 .Select(order =>
                 {
-                    var deliveryDate = _deliveryDateCal.DeliveryDate(order, true);
+                    var deliveryDate = _deliveryDateCal.RushDeliveryDate(order);
                     return $"{order.Name} (placed on {order.PlacedOn}), delivery by {deliveryDate}";
                 });
             var content = string.Join('\n', orderLines);
