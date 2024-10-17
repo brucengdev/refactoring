@@ -67,6 +67,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterizeFunction", "Ref
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveFlagArgument", "Refactorings\RefactoringAPIs\RemoveFlagArgument\RemoveFlagArgument.csproj", "{2B70A0F3-EB98-4B88-B0E7-4613770885F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveFlagArgument2", "Refactorings\RefactoringAPIs\RemoveFlagArgument2\RemoveFlagArgument2.csproj", "{511BA157-E423-4E1A-8029-24FEF2313C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,10 @@ Global
 		{2B70A0F3-EB98-4B88-B0E7-4613770885F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B70A0F3-EB98-4B88-B0E7-4613770885F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B70A0F3-EB98-4B88-B0E7-4613770885F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511BA157-E423-4E1A-8029-24FEF2313C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511BA157-E423-4E1A-8029-24FEF2313C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511BA157-E423-4E1A-8029-24FEF2313C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511BA157-E423-4E1A-8029-24FEF2313C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -216,6 +222,7 @@ Global
 		{D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{C9D5DB43-3B50-485B-9703-4A41763BF8F2} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 		{2B70A0F3-EB98-4B88-B0E7-4613770885F4} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
+		{511BA157-E423-4E1A-8029-24FEF2313C2F} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
