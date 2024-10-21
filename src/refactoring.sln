@@ -65,11 +65,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactoringAPIs", "Refactor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParameterizeFunction", "Refactorings\RefactoringAPIs\ParameterizeFunction\ParameterizeFunction.csproj", "{C9D5DB43-3B50-485B-9703-4A41763BF8F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveFlagArgument", "Refactorings\RefactoringAPIs\RemoveFlagArgument\RemoveFlagArgument.csproj", "{2B70A0F3-EB98-4B88-B0E7-4613770885F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveFlagArgument", "Refactorings\RefactoringAPIs\RemoveFlagArgument\RemoveFlagArgument.csproj", "{2B70A0F3-EB98-4B88-B0E7-4613770885F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveFlagArgument2", "Refactorings\RefactoringAPIs\RemoveFlagArgument2\RemoveFlagArgument2.csproj", "{511BA157-E423-4E1A-8029-24FEF2313C2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveFlagArgument2", "Refactorings\RefactoringAPIs\RemoveFlagArgument2\RemoveFlagArgument2.csproj", "{511BA157-E423-4E1A-8029-24FEF2313C2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreserveWholeObject", "Refactorings\RefactoringAPIs\PreserveWholeObject\PreserveWholeObject.csproj", "{E6F24836-D955-43E2-9913-3CD0387EDA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PreserveWholeObject", "Refactorings\RefactoringAPIs\PreserveWholeObject\PreserveWholeObject.csproj", "{E6F24836-D955-43E2-9913-3CD0387EDA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceParameterWithQuery", "Refactorings\RefactoringAPIs\ReplaceParameterWithQuery\ReplaceParameterWithQuery.csproj", "{88621866-A078-4C35-9E40-6493F8E28E7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +195,10 @@ Global
 		{E6F24836-D955-43E2-9913-3CD0387EDA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6F24836-D955-43E2-9913-3CD0387EDA45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6F24836-D955-43E2-9913-3CD0387EDA45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88621866-A078-4C35-9E40-6493F8E28E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88621866-A078-4C35-9E40-6493F8E28E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88621866-A078-4C35-9E40-6493F8E28E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88621866-A078-4C35-9E40-6493F8E28E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +236,7 @@ Global
 		{2B70A0F3-EB98-4B88-B0E7-4613770885F4} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 		{511BA157-E423-4E1A-8029-24FEF2313C2F} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 		{E6F24836-D955-43E2-9913-3CD0387EDA45} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
+		{88621866-A078-4C35-9E40-6493F8E28E7F} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
