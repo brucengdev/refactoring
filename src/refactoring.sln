@@ -75,6 +75,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceParameterWithQuery",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceQueryWithParameter", "Refactorings\RefactoringAPIs\ReplaceQueryWithParameter\ReplaceQueryWithParameter.csproj", "{67A2548E-B98B-4D19-BE6A-1B464BA7B28F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceFunctionWithCommand", "Refactorings\RefactoringAPIs\ReplaceFunctionWithCommand\ReplaceFunctionWithCommand.csproj", "{D6C0FFF0-56CB-46EA-95B9-FA96BB8F0268}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +207,10 @@ Global
 		{67A2548E-B98B-4D19-BE6A-1B464BA7B28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67A2548E-B98B-4D19-BE6A-1B464BA7B28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67A2548E-B98B-4D19-BE6A-1B464BA7B28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C0FFF0-56CB-46EA-95B9-FA96BB8F0268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C0FFF0-56CB-46EA-95B9-FA96BB8F0268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C0FFF0-56CB-46EA-95B9-FA96BB8F0268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C0FFF0-56CB-46EA-95B9-FA96BB8F0268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +250,7 @@ Global
 		{E6F24836-D955-43E2-9913-3CD0387EDA45} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 		{88621866-A078-4C35-9E40-6493F8E28E7F} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 		{67A2548E-B98B-4D19-BE6A-1B464BA7B28F} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
+		{D6C0FFF0-56CB-46EA-95B9-FA96BB8F0268} = {D82C9E3D-CF9E-4E56-930B-E8803ECCB3A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
