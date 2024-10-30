@@ -1,4 +1,4 @@
-﻿namespace ReplaceTypeCodeWithPolymorphismIndirectInheritance.Original
+﻿namespace ReplaceTypeCodeWithPolymorphismIndirectInheritance.Refactored
 {
     internal class EmployeeType
     {
