@@ -1,4 +1,4 @@
-﻿namespace ReplaceTypeCodeWithPolymorphismDirectInheritance.Refactored
+﻿namespace ReplaceTypeCodeWithSubclassesDirectInheritance.Refactored
 {
     internal class Manager: Employee
     {
