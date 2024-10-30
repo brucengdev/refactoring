@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PullUpMethod", "Refactoring
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PullUpConstructorBody", "Refactorings\DealingWithInheritance\PullUpConstructorBody\PullUpConstructorBody.csproj", "{70ECD7DC-766C-4888-A3A6-5D720A05B3C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceTypeCodeWithPolymorphismDirectInheritance", "Refactorings\DealingWithInheritance\ReplaceTypeCodeWithPolymorphismDirectInheritance\ReplaceTypeCodeWithPolymorphismDirectInheritance.csproj", "{9844AD8E-DDF4-44AD-AE0E-891503BCF81F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{70ECD7DC-766C-4888-A3A6-5D720A05B3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70ECD7DC-766C-4888-A3A6-5D720A05B3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70ECD7DC-766C-4888-A3A6-5D720A05B3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9844AD8E-DDF4-44AD-AE0E-891503BCF81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9844AD8E-DDF4-44AD-AE0E-891503BCF81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9844AD8E-DDF4-44AD-AE0E-891503BCF81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9844AD8E-DDF4-44AD-AE0E-891503BCF81F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -275,6 +281,7 @@ Global
 		{978CBBC6-F073-4675-8C65-473DD7093610} = {CE0A569A-7421-41D5-AF07-F2EC2537B19D}
 		{FED9E45B-7D6A-400C-8E5D-A81CBE97161D} = {978CBBC6-F073-4675-8C65-473DD7093610}
 		{70ECD7DC-766C-4888-A3A6-5D720A05B3C8} = {978CBBC6-F073-4675-8C65-473DD7093610}
+		{9844AD8E-DDF4-44AD-AE0E-891503BCF81F} = {978CBBC6-F073-4675-8C65-473DD7093610}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
