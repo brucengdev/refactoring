@@ -83,15 +83,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DealingWithInheritance", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PullUpMethod", "Refactorings\DealingWithInheritance\PullUpMethod\PullUpMethod.csproj", "{FED9E45B-7D6A-400C-8E5D-A81CBE97161D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PullUpConstructorBody", "Refactorings\DealingWithInheritance\PullUpConstructorBody\PullUpConstructorBody.csproj", "{70ECD7DC-766C-4888-A3A6-5D720A05B3C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PullUpConstructorBody", "Refactorings\DealingWithInheritance\PullUpConstructorBody\PullUpConstructorBody.csproj", "{70ECD7DC-766C-4888-A3A6-5D720A05B3C8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceTypeCodeWithSubclassesIndirectInheritance", "Refactorings\DealingWithInheritance\ReplaceTypeCodeWithSubclassesIndirectInheritance\ReplaceTypeCodeWithSubclassesIndirectInheritance.csproj", "{ED7333A1-8542-448D-A03A-998F040EE64C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceTypeCodeWithSubclassesDirectInheritance", "Refactorings\DealingWithInheritance\ReplaceTypeCodeWithSubclassesDirectInheritance\ReplaceTypeCodeWithSubclassesDirectInheritance.csproj", "{53BE275B-A664-44A9-934D-D92F27780803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveSubclass", "Refactorings\DealingWithInheritance\RemoveSubclass\RemoveSubclass.csproj", "{20FADFCD-7302-4CEA-A210-6E5ACFD52133}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveSubclass", "Refactorings\DealingWithInheritance\RemoveSubclass\RemoveSubclass.csproj", "{20FADFCD-7302-4CEA-A210-6E5ACFD52133}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSuperClass", "Refactorings\DealingWithInheritance\ExtractSuperClass\ExtractSuperClass.csproj", "{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractSuperClass", "Refactorings\DealingWithInheritance\ExtractSuperClass\ExtractSuperClass.csproj", "{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceSubClassWithDelegate", "Refactorings\DealingWithInheritance\ReplaceSubClassWithDelegate\ReplaceSubClassWithDelegate.csproj", "{F043B8E5-A714-4CCC-9E67-7FE637B759FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F043B8E5-A714-4CCC-9E67-7FE637B759FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F043B8E5-A714-4CCC-9E67-7FE637B759FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F043B8E5-A714-4CCC-9E67-7FE637B759FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F043B8E5-A714-4CCC-9E67-7FE637B759FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -303,6 +309,7 @@ Global
 		{53BE275B-A664-44A9-934D-D92F27780803} = {978CBBC6-F073-4675-8C65-473DD7093610}
 		{20FADFCD-7302-4CEA-A210-6E5ACFD52133} = {978CBBC6-F073-4675-8C65-473DD7093610}
 		{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D} = {978CBBC6-F073-4675-8C65-473DD7093610}
+		{F043B8E5-A714-4CCC-9E67-7FE637B759FB} = {978CBBC6-F073-4675-8C65-473DD7093610}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
