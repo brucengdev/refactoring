@@ -2,32 +2,56 @@
 {
     internal class Booking
     {
-        protected Show _show { get; }
+        public Show Show { get; }
         protected DateTime _date { get; }
+        
+        protected PremiumBookingDelegate _premiumDelegate;
         public Booking(Show show, DateTime date, bool isPeakDay)
         {
-            _show = show;
+            Show = show;
             _date = date;
             IsPeakDay = isPeakDay;
         }
 
         public bool IsPeakDay { get; set; }
-        public virtual bool HasTalkback { 
+        public bool HasTalkback { 
             get {
-                return _show.HasTalkBack && IsPeakDay;
+                if(_premiumDelegate != null)
+                {
+                    return _premiumDelegate.HasTalkback;
+                }
+                return Show.HasTalkBack && IsPeakDay;
             }
         }
 
-        public virtual double BasePrice
+        public double BasePrice
         {
             get
             {
-                var result = _show.Price;
+                var result = Show.Price;
                 if(IsPeakDay) {
-                    result += Math.Round(_show.Price * 0.15);
+                    result += Math.Round(Show.Price * 0.15);
+                }
+                if(_premiumDelegate != null)
+                {
+                    result = _premiumDelegate.ExtendBasePrice(result);
                 }
                 return result;
             }
+        }
+
+        public virtual bool HasDinner
+        {
+            get
+            {
+                return _premiumDelegate == null? false
+                    : _premiumDelegate.HasDinner;
+            }
+        }
+
+        public void BePremium(Extras extras)
+        {
+            _premiumDelegate = new PremiumBookingDelegate(this, extras);
         }
     }
 }
