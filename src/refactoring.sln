@@ -93,9 +93,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveSubclass", "Refactori
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractSuperClass", "Refactorings\DealingWithInheritance\ExtractSuperClass\ExtractSuperClass.csproj", "{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceSubClassWithDelegate", "Refactorings\DealingWithInheritance\ReplaceSubClassWithDelegate\ReplaceSubClassWithDelegate.csproj", "{F043B8E5-A714-4CCC-9E67-7FE637B759FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceSubClassWithDelegate", "Refactorings\DealingWithInheritance\ReplaceSubClassWithDelegate\ReplaceSubClassWithDelegate.csproj", "{F043B8E5-A714-4CCC-9E67-7FE637B759FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceSubclassWithDelegate2", "Refactorings\DealingWithInheritance\ReplaceSubclassWithDelegate2\ReplaceSubclassWithDelegate2.csproj", "{AD5C5D9A-624D-4D8A-A3C2-5EBF6AA15B1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplaceSubclassWithDelegate2", "Refactorings\DealingWithInheritance\ReplaceSubclassWithDelegate2\ReplaceSubclassWithDelegate2.csproj", "{AD5C5D9A-624D-4D8A-A3C2-5EBF6AA15B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceSuperclassWithDelegate", "Refactorings\DealingWithInheritance\ReplaceSuperclassWithDelegate\ReplaceSuperclassWithDelegate.csproj", "{A4021AB9-0E91-4382-829C-ECC027F60E4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -267,6 +269,10 @@ Global
 		{AD5C5D9A-624D-4D8A-A3C2-5EBF6AA15B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD5C5D9A-624D-4D8A-A3C2-5EBF6AA15B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD5C5D9A-624D-4D8A-A3C2-5EBF6AA15B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4021AB9-0E91-4382-829C-ECC027F60E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4021AB9-0E91-4382-829C-ECC027F60E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4021AB9-0E91-4382-829C-ECC027F60E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4021AB9-0E91-4382-829C-ECC027F60E4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -317,6 +323,7 @@ Global
 		{E745A6E5-8230-49CC-8B3C-CA9EE9E2577D} = {978CBBC6-F073-4675-8C65-473DD7093610}
 		{F043B8E5-A714-4CCC-9E67-7FE637B759FB} = {978CBBC6-F073-4675-8C65-473DD7093610}
 		{AD5C5D9A-624D-4D8A-A3C2-5EBF6AA15B1C} = {978CBBC6-F073-4675-8C65-473DD7093610}
+		{A4021AB9-0E91-4382-829C-ECC027F60E4A} = {978CBBC6-F073-4675-8C65-473DD7093610}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BEE24D05-3A3A-42C9-8225-4826678CF6B2}
